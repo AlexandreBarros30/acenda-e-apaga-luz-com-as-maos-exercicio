@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="{nU}DC_nix4^!qJ^-o)v">liga luz</variable></variables><block type="input_on_sound" id="Y+UWsTH/@0?)c$E%+g*l" x="274" y="79"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="variables_set" id="ttC:F/t]=yVOMNyhxcy8"><field name="VAR" id="{nU}DC_nix4^!qJ^-o)v">liga luz</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_negate" id="i$I6#]PY/W6O=R.!Do=P"><value name="BOOL"><block type="variables_get" id="S3jDM6Ictc|_Msoh?3o:"><field name="VAR" id="{nU}DC_nix4^!qJ^-o)v">liga luz</field></block></value></block></value><next><block type="controls_if" id="fTzPv^I41#B(m`+Z_,JJ"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id="##f1D-K/5I9yy}++bP4h"><field name="VAR" id="{nU}DC_nix4^!qJ^-o)v">liga luz</field></block></value><statement name="DO0"><block type="device_show_leds" id="b_sVk~lx~nT)WwhY63O5"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="6x^?#J,6Bcx4pz-x?b0B"></block></statement></block></next></block></statement></block></xml>
